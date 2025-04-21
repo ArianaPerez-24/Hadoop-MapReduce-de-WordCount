@@ -1,6 +1,8 @@
-LEVANTAR NODO HADOOP
+**LEVANTAR NODO HADOOP*
+
 Se debe tener intalado Doker desktop y descargar del siguiente repositorio o de el mio para poder ser ejecutado 
-https://github.com/big-data-europe/docker-hadoop esta carpeta debe ser guardada en una nueva y renombrarla,una vez creada tu cuenta en el programa doker es momento de abrir el cmd para ejecutar lo siguiente:
+Referencia: https://github.com/big-data-europe/docker-hadoop 
+(Esta carpeta debe ser guardada en una nueva y renombrarla),una vez creada tu cuenta en el programa doker es momento de abrir el cmd para ejecutar lo siguiente:
 docker-compose up -d #Este comando iniciará los cinco contenedores requeridos, pero debe estar abierto doker para que sea posible
 docker exec -it namenode bash #Este comando es para entrar al nodo maestro y poder empezar a realizar 3 ejercicios.
 
